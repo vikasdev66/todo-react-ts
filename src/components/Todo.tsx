@@ -18,7 +18,7 @@ export function Todo (){
         }
     
         const deleteItem=(index:number)=>{
-            const newTasks:any= [...list];
+            const newTasks:string[]= [...list];
             newTasks.splice(index, 1);
             setList(newTasks);
         }
