@@ -1,0 +1,49 @@
+.container{
+    height: 60vh;
+    width: 70vw;
+    background-color: #D4F6CC;
+}
+
+.inputContainer{
+    width: 70vw;
+    height: 50px;
+    background-color: #EF5B0C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 20vw;
+    height: 28px;
+    font-size: 15px;
+    font: bolder;
+    border: none;
+    outline: none;
+}
+.addBtn{
+    background-color:#3CCF4E;
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listContainer{
+    height: 370px;
+    width: 70vw;
+    overflow: scroll;
+}
+
+li{
+    list-style: none;
+}
+
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    width: 50vw;
+}
