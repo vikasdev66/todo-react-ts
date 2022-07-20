@@ -4,11 +4,10 @@ import { useState } from "react";
 import {MdDeleteOutline} from 'react-icons/md'
 
 export function Todo (){
-    const [list,setList]=useState([""]);
-    const [task,setTask]=useState<string>("");
+    const [list,setList]=useState<string[]>([]);
+    const [task,setTask]=useState("");
 
     const handleSubmit=()=>{
-        let count=0+1;
         if(task){
             setList([task,...list])
             setTask("")
